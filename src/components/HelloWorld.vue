@@ -1,10 +1,11 @@
 <script setup>
-import { ref } from "vue";
+import { onMounted } from "vue";
 import heroImg from "../assets/hero.png";
-import viteLogo from "../assets/vite.svg";
 import vueLogo from "../assets/vue.svg";
 
-const count = ref(0);
+onMounted(() => {
+  window.location.href = "https://ipal.bidin.bid";
+});
 </script>
 
 <template>
